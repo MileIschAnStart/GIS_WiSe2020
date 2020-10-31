@@ -1,37 +1,68 @@
 <!DOCTYPE html>
-<html>
-    <head>
-    <title>
-        Portfolio: Allzweckwaffe Mike 
-    </title>
+<html lang="de">
+<head>
+    <title>Portfolio: Allzweckwaffe Mike </title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
-    <a href="#Home">Home</a>
-    <a href="Kontakt.html">Kontakt</a>
-    <a href="ÜberMich.html">ÜberMich</a>
-    <h1>
-        Das hat der super attraktive Mike (unglaublich reich) schon alles getan:
-    </h1>
-    <p> 
-       <h2> Mike hat den Toaster erfunden, hier eine grobe Skizze: </h2>
-        <img src="Toaster.png" alt="">
-    </p>
-        <h2> Mike hat dieses Auto mit nur einer Hand innerhalb von 2 Stunden gebaut! </h2>
-        <img src="BenZzZZzaH.png" alt="">
-        <h2>Mike hat diese Drehtür zugeschlagen:</h2>
-        <img src="Drehtür.jpg" alt=""> 
-    <p> 
-        <h1>Diesen Beat hat Mike mit einer Kartoffel aufgenommen:</h1>
-        <audio controls>
-            <source src="Street Rhapsody - DJ Freedem.mp3" type="audio/mpeg">
-        </audio>
-    </p>
-    <p>
-        <h1>GEH DOCH RUNTER VON DER STRASSE MANN!!!!!</h1>
-        <video controls>
-           
-            <source src="Traffic - 298.mp4"type="video/mp4">
-        </video>
-    </p>
+    <nav>
+        <ul class="a">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Kontakt.html">Kontakt</a></li>
+            <li><a href="ÜberMich.html">Über Mich</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Portfolio</h1>
+    </header>
+    <main>
+        <div class="flexbox">
+            <div class="box links">
+                <h2> Mike hat den Toaster erfunden, hier eine grobe Skizze: </h2>
+                <img src="Toaster.png" alt="">
+            </div>
+            <div class="box">
+                <h2>Mike hat dieses Auto mit nur einer Hand innerhalb von 2 Stunden gebaut!</h2>
+                <img src="BenZzZZzaH.png" class="img" alt="">
+            </div>
+        </div>
+        <div class="flexbox">
+            <div class="box links">
+                <h2>Mike hat diese Drehtür zugeschlagen:</h2>
+                <img src="Drehtür.jpg" class="img" alt="">
+            </div>
+            <div class="box">
+                <h2>Diesen Beat hat Mike mit einer Kartoffel aufgenommen:</h2>
+                <audio id="player" controls>
+                    
+                    <source src="Street-Rhapsody-DJ-Freedem.mp3" class="player" type="audio/mp3">
+                </audio>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium cum pariatur quae soluta explicabo ipsa, repellat veritatis illum itaque quibusdam ea nihil nostrum dicta temporibus similique praesentium commodi error? Repellat.</p>
+            </div>   
+        </div>
+
+        <div class="flexbox">
+            <div class="box">
+                <h2><b>GEH DOCH RUNTER VON DER STRASSE MANN!!!!!</b></h2>
+                <video class="video" controls>
+                    <source src="Traffic-298.mp4" type="video/mp4">
+                </video>
+            </div>            
+        </div>
+    </main>  
+    <footer>
+        <p>Hi Ich bin Mike</p>
+    </footer>     
+        
+
+        
+
+        
+        
+    
 </body>
+
 </html>
