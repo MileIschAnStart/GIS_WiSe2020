@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(Hintergrund.png);
+    border: none;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Seiten-Überschrift*/ 
+h1{
+    background: lightseagreen;
+    color: white;
+    display: inline-block;
+    font-size: 2em;
+    padding: 0.625em 2.5em 0.938em 2.5em;  
+    border-radius: 2em;
+}  
+h2{
+    color: white;
+    font-size: 2em;
+    padding: 1em 0.2em;
+}  
+h3{
+    color:white;
+    font-size: 2em;
+} 
+p{
+    color: white;
+    font-size: 1.5em;
+    padding-top:1em;
+}
+.svg{
+    width:50%;
+}
+
+/*Navigations-Leiste*/
+nav {
+    position: sticky;
+    top: 0%;
+}
+nav a{
+    color: white;
+    background: lightseagreen;
+    padding: 0.5em 0.5em 0.313em 0.313em;
+    margin: 0.313em;
+    border-radius: 0.625em;
+    display: block;
+    text-decoration: none;
+    text-align: right;
+    
+} 
+nav a:hover{
+Background-color:#337ab7;
+transform: rotate(20deg)
+}   
+ul.a{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;  
+}
+ul.a li{
+    float: right;
+}
+
+
+/*Kontaktformular*/
+
+input[type=text], select, textarea {
+    background-color:lightgrey;
+    width: 80%;
+    padding: 0.375em;
+    border: 0.063em solid #ccc;
+    border-radius: 0.25em;
+    box-sizing: border-box;
+    margin-top: 0.25em;
+    margin-bottom: 0.625em;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: lightgrey;
+    color: rgb(0, 0, 0);
+    padding: 0.75em 6em;
+    border: none;
+    border-radius: 0.25em;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #337ab7;
+  }
+/*Flexbox*/
+.flexbox{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    padding:2em;
+}
+
+.box{
+    width:100%;
+    background:lightseagreen;
+    border-radius: 2em;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    flex:1;
+}
+.box.links{
+    margin-right: 2em;
+    flex:1;
+}
+footer p{
+    color:black;
+}
+
+img{
+    width: 100%;
+    padding: 1em;
+}
+.icon{
+    width: 30%;
+    height: auto;
+  }
+#player{
+    width: 40%;
+    height: 20px;
+}
+.video{
+    width: 60%;
+    height: auto;
+  }
+
+  @media screen and (max-width: 600px) and (min-width: 100px) {
+    .flexbox {   
+      flex-direction: column;
+      padding:0;
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    .svg{
+        width:20%;
+    }
+
+  }
+
+  @media screen and (max-width: 768px) and (min-width: 600px) {
+    
+    h1{
+        font-size: 2em;
+    }
+    h2{
+        font-size: 1.3em;
+    }
+    p{
+        font-size: 0.8em;
+    }
+
+  }

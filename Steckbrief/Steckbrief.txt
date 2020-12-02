@@ -1,9 +1,0 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<h1> Das ist Mike:
-Hi ich bin Mike </h1>
-
-</body>
-</html>

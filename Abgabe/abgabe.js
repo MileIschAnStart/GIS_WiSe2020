@@ -15,14 +15,4 @@ schmutzLegs.addEventListener("click", iwasLegs);
 function iwasLegs(_event) {
     location.href = "legs.html";
 }
-/*Images*/
-function createImgTag(_newImg, _grabDiv) {
-    const newImg = document.createElement("img");
-    const grabDiv = document.getElementById("imgDiv");
-    return grabDiv.appendChild(newImg);
-}
-/* For-Schleife für <img> */
-for (let i = 0; i < 3; i++) {
-    createImgTag(null, null);
-}
 //# sourceMappingURL=abgabe.js.map
