@@ -1,0 +1,50 @@
+
+img{
+width: 20%;
+padding: 10px;
+}
+
+body{
+    background-color: lightblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    text-align: center;
+    background-color: lightgrey;
+    color:black;
+}
+
+.image-cnt{
+    margin: 200px;    
+}
+
+img{
+    margin: 100px;
+}
+p{
+    text-align: center;
+    background-color: lightgrey;
+    color:black;
+}
+
+button{
+    display: inline-block;
+    border-radius: 5px;
+    background-color: lightgrey;
+    margin: 20px;
+    border-style: unset;
+    padding: 10px;
+}
+
+button:active {
+    transform: translateY(4px);
+}
+
+.container{
+    margin-left: 750px;
+}
+
+#serverresult{
+    margin-right: 800px;
+}
